@@ -20,9 +20,12 @@ namespace LocalUserAccountManager_Windows
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+
+            //MessageBox.Show(App._withAdminRights.ToString());
         }
     }
 }
